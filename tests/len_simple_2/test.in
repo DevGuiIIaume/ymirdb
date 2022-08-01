@@ -1,0 +1,17 @@
+set a1 1 2 3
+set a2 -1 0
+len a1
+len a2
+pop a1
+len a1
+push a1 0
+len a1
+list entries
+append a1 4 5
+len a1
+pop a2
+pop a2
+len a2
+pop a2
+len a2
+bye

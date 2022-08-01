@@ -1,0 +1,10 @@
+set a 1
+set b a 2
+snapshot
+del a
+del b
+del a
+list entries
+checkout 1
+list entries
+bye

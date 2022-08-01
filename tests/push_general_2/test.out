@@ -1,0 +1,38 @@
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> d [c]
+c [3]
+b [a]
+a [1]
+
+> ok
+
+> ok
+
+> nil
+
+> a
+
+> nil
+
+> c
+
+> a, c
+
+> b, e
+
+> nil
+
+> d, e
+
+> nil
+
+> nil
+
+> bye

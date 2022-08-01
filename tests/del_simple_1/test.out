@@ -1,0 +1,37 @@
+> ok
+
+> ok
+
+> ok
+
+> cc [7 8 9]
+bb [4 5 6]
+aa [1 2 3]
+
+> ok
+
+> cc [7 8 9]
+bb [4 5 6]
+
+> no such key
+
+> ok
+
+> bb [4 5 6]
+
+> no such key
+
+> ok
+
+> aa [1 2 3]
+bb [4 5 6]
+
+> ok
+
+> aa [1 2 3]
+
+> ok
+
+> no entries
+
+> bye

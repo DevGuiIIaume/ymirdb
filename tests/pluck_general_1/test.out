@@ -1,0 +1,79 @@
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> d [4 a b c]
+c [b]
+b [a]
+a [1]
+
+> nil
+
+> a
+
+> a, b
+
+> a, b, c
+
+> b, c, d
+
+> c, d
+
+> d
+
+> nil
+
+> b
+
+> nil
+
+> a
+
+> nil
+
+> a, b, c
+
+> b, d
+
+> d
+
+> d
+
+> nil
+
+> d [4 a b c]
+c []
+b [a]
+a [1]
+
+> b
+
+> d [4 a c]
+c []
+b [a]
+a [1]
+
+> a, c
+
+> nil
+
+> a
+
+> d [4 a c]
+c []
+b [a]
+a [1]
+
+> a
+
+> nil
+
+> d
+
+> bye

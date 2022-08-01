@@ -1,0 +1,6 @@
+set a -1 0 1
+pop a
+get a
+del a
+pop a
+bye

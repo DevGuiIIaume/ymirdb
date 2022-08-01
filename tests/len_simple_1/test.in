@@ -1,0 +1,4 @@
+set z 1
+len z
+len a
+bye

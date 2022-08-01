@@ -1,0 +1,5 @@
+set a 1
+set b a a
+pop b
+list entries
+bye

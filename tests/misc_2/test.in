@@ -1,0 +1,8 @@
+type a
+list keys
+rollback 4
+append a 4
+min z
+max z
+sum z
+bye

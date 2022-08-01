@@ -1,0 +1,11 @@
+push a 1
+push a 1 2
+set a 1 2 3
+get a
+push a 0
+list entries
+push a -1
+list entries
+push a -2 -3
+get a
+bye

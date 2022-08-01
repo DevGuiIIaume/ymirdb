@@ -1,0 +1,10 @@
+set keyA 11 12 13
+set keyB 21 22 23
+list entries
+append keyA keyB
+list entries
+forward keyA
+forward keyB
+backward keyA
+backward keyB
+bye

@@ -1,0 +1,9 @@
+set a 1
+set b a 2
+set c -10
+set d c -100
+min b
+min a
+min c
+min d
+bye

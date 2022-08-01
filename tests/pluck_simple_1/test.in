@@ -1,0 +1,18 @@
+set a 1 2 3 4 5
+pluck a -1
+pluck a 0
+pluck a 6
+pluck a 1
+get a
+pluck a 5
+pluck a 4
+get a
+pluck a 3
+get a
+pluck a 1
+pluck a 1
+get a
+pluck a 0
+pluck a 2
+pluck a 1
+bye

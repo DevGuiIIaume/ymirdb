@@ -1,0 +1,99 @@
+> ok
+
+> saved as snapshot 1
+
+> ok
+
+> saved as snapshot 2
+
+> ok
+
+> saved as snapshot 3
+
+> ok
+
+> saved as snapshot 4
+
+> ok
+
+> saved as snapshot 5
+
+> e [5]
+d [4]
+c [3]
+b [2]
+a [1]
+
+> ok
+
+> e [5]
+d [4]
+c [3]
+b [2]
+
+> ok
+
+> no entries
+
+> ok
+
+> b [2]
+
+> ok
+
+> c [3]
+b [2]
+
+> ok
+
+> d [4]
+c [3]
+b [2]
+
+> ok
+
+> e [5]
+d [4]
+c [3]
+b [2]
+
+> ok
+
+> ok
+
+> no entries
+
+> ok
+
+> b [2]
+
+> ok
+
+> b [2]
+
+> no such key
+
+> ok
+
+> d [4]
+b [2]
+
+> ok
+
+> e [5]
+d [4]
+b [2]
+
+> ok
+
+> b [2]
+
+> ok
+
+> no entries
+
+> 3
+2
+1
+
+> bye

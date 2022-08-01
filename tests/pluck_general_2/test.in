@@ -1,0 +1,29 @@
+set a 1
+set b a
+set c b
+set d a b c
+list entries
+pluck d 1
+pluck d 2
+pluck d 2
+pluck d 1
+list entries
+forward d
+backward d
+forward a
+backward a
+forward b
+backward d
+forward c
+backward c
+push d a b c
+list entries
+forward a
+forward b
+forward c
+forward d
+backward a
+backward b
+backward c
+backward d
+bye

@@ -1,0 +1,16 @@
+set a 1 2 3
+set b a 1 a 1 a
+set c b b
+sum a
+sum b
+sum c
+len a
+len b
+len c
+min a
+min b
+min c
+max a
+max b
+max c
+bye

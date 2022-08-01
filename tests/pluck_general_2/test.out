@@ -1,0 +1,66 @@
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> d [a b c]
+c [b]
+b [a]
+a [1]
+
+> a
+
+> c
+
+> index out of range
+
+> b
+
+> d []
+c [b]
+b [a]
+a [1]
+
+> nil
+
+> nil
+
+> nil
+
+> b, c
+
+> a
+
+> nil
+
+> a, b
+
+> nil
+
+> ok
+
+> d [c b a]
+c [b]
+b [a]
+a [1]
+
+> nil
+
+> a
+
+> a, b
+
+> a, b, c
+
+> b, c, d
+
+> c, d
+
+> d
+
+> nil
+
+> bye

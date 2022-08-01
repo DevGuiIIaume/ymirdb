@@ -1,0 +1,46 @@
+set a 1
+set b a
+set c b
+set d a b c
+list entries
+forward a
+forward b
+forward c
+forward d
+backward a
+backward b
+backward c
+backward d
+del a
+del b
+del c
+del d
+list entries
+forward a
+forward b
+forward c
+forward d
+backward a
+backward b
+backward c
+backward d
+del a
+del b
+del c
+list entries
+get c
+forward a
+forward b
+backward a
+backward b
+del a
+del b
+forward a
+forward b
+backward a
+backward b
+list entries
+del a
+forward a
+backward a
+bye

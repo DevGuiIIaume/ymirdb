@@ -1,0 +1,13 @@
+set keyA 11 22 33 44
+get keyA
+pop keyA
+get keyA
+pop keyA
+get keyA
+pop keyA
+get keyA
+pop keyA
+get keyA
+pop keyA
+get keyA
+bye

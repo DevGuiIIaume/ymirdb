@@ -1,0 +1,34 @@
+set a 1
+set b a 2
+set c b 3
+set d 4
+set e 5
+push d a b c
+append d e
+forward a
+forward b
+forward c
+forward d
+forward e
+backward a
+backward b
+backward c
+backward d
+backward e
+list entries
+len a
+len b
+len c
+len d
+len e
+push a 3 2 1
+push b -1 0
+append c 4
+append e 55
+list entries
+len a
+len b
+len c
+len d
+len e
+bye

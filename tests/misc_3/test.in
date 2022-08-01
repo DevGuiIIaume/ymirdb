@@ -1,0 +1,7 @@
+set a 1
+set b a 2
+rev b
+sort b
+uniq b
+list entries
+bye

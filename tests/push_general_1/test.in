@@ -1,0 +1,12 @@
+set a 1
+set b a
+set c 3
+push c a
+list entries
+forward a
+forward b
+forward c
+backward a
+backward b
+backward c
+bye

@@ -1,0 +1,15 @@
+set a -1 0 1
+pick a 1
+pick a 2
+pick a 3
+append a 2
+pick a 4
+push a -2
+pick a 1
+pick a 2
+pick a 3
+pick a 4
+pick a 5
+pick a 6
+list entries
+bye

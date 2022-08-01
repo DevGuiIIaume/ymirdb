@@ -1,0 +1,6 @@
+set a 1 2 3
+pluck a 2
+get a
+del a
+pluck a 2
+bye

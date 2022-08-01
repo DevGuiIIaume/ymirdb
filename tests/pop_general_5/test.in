@@ -1,0 +1,9 @@
+set a 1
+set b a a
+pop b
+list entries
+forward a
+forward b
+backward a
+backward b
+bye

@@ -1,0 +1,17 @@
+set a 1
+type a
+pop a
+type a
+set b a 1
+type b
+pop b
+type b
+get b
+set b 1 a
+type b
+pop b
+type b
+get b
+pop b
+type b
+bye

@@ -1,0 +1,5 @@
+set a -10 -2 0 15 200
+min a
+set b -1
+min b
+bye

@@ -1,0 +1,21 @@
+set a 1 2 3
+type a
+pluck a 2
+type a
+pluck a 2
+pluck a 1
+type a
+set b 2
+set c 2 a b
+type b
+type c
+pluck c 2
+type c
+pluck c 1
+type c
+pluck c 1
+type c
+set c 1 a
+pluck c 2
+type c
+bye

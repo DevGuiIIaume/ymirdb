@@ -1,0 +1,22 @@
+set a 1
+set b 2
+set c 3
+set d 4
+push d a b c
+list entries
+pop a
+pop b
+pop d
+list entries
+pop c
+pop d
+list entries
+pop d
+list entries
+pop d
+list entries
+pop a
+pop b
+pop c
+pop d
+bye

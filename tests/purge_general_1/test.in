@@ -1,0 +1,57 @@
+set a 1
+set b a 2
+list keys
+list entries
+snapshot
+set c 3
+set d c 4
+list keys
+list entries
+snapshot
+set e 5
+snapshot
+push e c a
+snapshot
+set f e
+snapshot
+list snapshots
+del f
+del d
+del b
+forward e
+forward c
+forward a
+backward e
+backward c
+backward a
+purge e
+list keys
+checkout 5
+list entries
+del f
+purge e
+drop 5
+list entries
+purge e
+list snapshots
+checkout 4
+list entries
+purge c
+purge b
+list entries
+forward a
+forward b
+forward c
+forward d
+backward a
+backward b
+backward c
+backward d
+list snapshots
+checkout 3
+list entries
+checkout 1
+list entries
+forward a
+backward a
+bye

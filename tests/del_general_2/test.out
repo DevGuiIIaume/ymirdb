@@ -1,0 +1,93 @@
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> d [4]
+c [b]
+b [a]
+a [1]
+
+> simple
+
+> general
+
+> general
+
+> simple
+
+> ok
+
+> general
+
+> d [a 4]
+c [b]
+b [a]
+a [1]
+
+> nil
+
+> a
+
+> b, c, d
+
+> nil
+
+> ok
+
+> b, c
+
+> no such key
+
+> ok
+
+> ok
+
+> general
+
+> d
+
+> a, d
+
+> a, b, d
+
+> nil
+
+> b, c
+
+> c
+
+> nil
+
+> a, b, c
+
+> not permitted
+
+> not permitted
+
+> not permitted
+
+> ok
+
+> a, b
+
+> not permitted
+
+> not permitted
+
+> ok
+
+> a
+
+> nil
+
+> ok
+
+> ok
+
+> no entries
+
+> bye

@@ -1,0 +1,149 @@
+> ok
+
+> ok
+
+> b
+a
+
+> b [a 2]
+a [1]
+
+> saved as snapshot 1
+
+> ok
+
+> ok
+
+> d
+c
+b
+a
+
+> d [c 4]
+c [3]
+b [a 2]
+a [1]
+
+> saved as snapshot 2
+
+> ok
+
+> saved as snapshot 3
+
+> ok
+
+> saved as snapshot 4
+
+> ok
+
+> saved as snapshot 5
+
+> 5
+4
+3
+2
+1
+
+> ok
+
+> ok
+
+> ok
+
+> a, c
+
+> nil
+
+> nil
+
+> nil
+
+> e
+
+> e
+
+> not permitted
+
+> e
+c
+a
+
+> ok
+
+> f [e]
+e [a c 5]
+d [c 4]
+c [3]
+b [a 2]
+a [1]
+
+> ok
+
+> not permitted
+
+> ok
+
+> e [a c 5]
+d [c 4]
+c [3]
+b [a 2]
+a [1]
+
+> ok
+
+> 4
+3
+2
+1
+
+> ok
+
+> d [c 4]
+c [3]
+b [a 2]
+a [1]
+
+> not permitted
+
+> ok
+
+> d [c 4]
+c [3]
+a [1]
+
+> nil
+
+> no such key
+
+> nil
+
+> c
+
+> nil
+
+> no such key
+
+> d
+
+> nil
+
+> 4
+3
+2
+1
+
+> ok
+
+> d [c 4]
+c [3]
+a [1]
+
+> ok
+
+> a [1]
+
+> nil
+
+> nil
+
+> bye
