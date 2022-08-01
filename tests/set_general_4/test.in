@@ -1,0 +1,14 @@
+set a 1
+set b a
+set c 3
+set d c
+list entries
+forward a
+forward b
+forward c
+forward d
+backward a
+backward b
+backward c
+backward d
+bye

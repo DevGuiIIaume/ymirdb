@@ -1,0 +1,28 @@
+set a 1
+snapshot
+set a 2
+snapshot
+set a 3
+snapshot
+set a 4
+list entries
+list snapshots
+checkout 1
+get a
+set a 5
+get a
+checkout 2
+get a
+set a 5
+get a
+checkout 3
+get a
+set a 5
+get a
+checkout 1
+get a
+checkout 2
+get a
+checkout 3
+get a
+bye

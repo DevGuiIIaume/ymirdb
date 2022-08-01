@@ -1,0 +1,8 @@
+set a 1
+snapshot
+checkout -1
+rollback -1
+drop -1
+checkout 1
+list entries
+bye

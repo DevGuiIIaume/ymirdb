@@ -1,0 +1,10 @@
+set f 1
+set e f
+set d e f
+set c d e f
+set b c d e f
+set a b c d e f
+sum a
+forward a
+backward f
+bye

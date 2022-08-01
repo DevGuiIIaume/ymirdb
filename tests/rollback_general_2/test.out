@@ -1,0 +1,120 @@
+> ok
+
+> ok
+
+> ok
+
+> saved as snapshot 1
+
+> ok
+
+> saved as snapshot 2
+
+> d [c 4]
+c [3]
+b [a 2]
+a [1]
+
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> no entries
+
+> ok
+
+> c [3]
+b [a 2]
+a [1]
+
+> ok
+
+> ok
+
+> ok
+
+> no entries
+
+> ok
+
+> d [c 4]
+c [3]
+b [a 2]
+a [1]
+
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> no entries
+
+> ok
+
+> d [c 4]
+c [3]
+b [a 2]
+a [1]
+
+> ok
+
+> c [3]
+b [a 2]
+a [1]
+
+> saved as snapshot 3
+
+> ok
+
+> ok
+
+> ok
+
+> no entries
+
+> ok
+
+> c [3]
+b [a 2]
+a [1]
+
+> ok
+
+> c [3]
+b [a 2]
+a [1]
+
+> nil
+
+> a
+
+> b
+
+> nil
+
+> nil
+
+> nil
+
+> ok
+
+> nil
+
+> a
+
+> nil
+
+> b
+
+> nil
+
+> nil
+
+> bye

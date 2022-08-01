@@ -1,0 +1,13 @@
+set a 1
+set b 2
+sum a
+sum b
+push a b
+sum a
+set c 3
+push b c
+sum b
+append b 5
+sum b
+list entries
+bye

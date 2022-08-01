@@ -1,0 +1,4 @@
+set a 1
+set b 2
+set b a 2 a
+bye

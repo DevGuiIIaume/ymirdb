@@ -1,0 +1,7 @@
+set a 3 2 1
+get a
+sort a
+get a
+del a
+sort a
+bye

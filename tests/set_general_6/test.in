@@ -1,0 +1,28 @@
+set a 1
+set b 2
+set c 3
+pop b
+pop b
+set b a c
+forward a
+forward b
+forward c
+backward a
+backward b
+backward c
+snapshot
+del a
+del c
+del b
+del a
+del c
+list entries
+rollback 1
+list entries
+forward a
+forward b
+forward c
+backward a
+backward b
+backward c
+bye

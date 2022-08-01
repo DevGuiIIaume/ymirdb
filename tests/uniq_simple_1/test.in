@@ -1,0 +1,22 @@
+set a 0
+uniq a
+get a
+set a 0 0
+uniq a
+get a
+set a 1 0 0
+uniq a
+get a
+set a 0 0 1
+uniq a
+get a
+set a -1 0 -1 -1
+uniq a
+get a
+push a -1
+uniq a
+get a
+append a -1
+uniq a
+get a
+bye

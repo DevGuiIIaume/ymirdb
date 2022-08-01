@@ -1,0 +1,11 @@
+set a 1
+set b 2
+set c 3
+set c a b
+forward a
+forward b
+forward c
+backward a
+backward b
+backward c
+bye

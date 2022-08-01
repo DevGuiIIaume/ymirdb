@@ -1,0 +1,21 @@
+set a 1 2 3
+set b a 1
+set c a 2
+set d b c
+forward a
+forward b
+forward c
+forward d
+backward a
+backward c
+backward b
+backward d
+sum a
+sum b
+sum c
+sum d
+len a
+len b
+len c
+len d
+bye

@@ -1,0 +1,43 @@
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> e [c a 5]
+d [c 4]
+c [3]
+b [a 2]
+a [1]
+
+> saved as snapshot 1
+
+> ok
+
+> nil
+
+> a
+
+> nil
+
+> c
+
+> a, c
+
+> b, e
+
+> nil
+
+> d, e
+
+> nil
+
+> nil
+
+> bye

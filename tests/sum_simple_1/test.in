@@ -1,0 +1,11 @@
+set a 10
+sum a
+pop a
+sum a
+set a -1 -5 -10 3 0 10
+sum a
+append a 5
+sum a
+push a -1
+sum a
+bye

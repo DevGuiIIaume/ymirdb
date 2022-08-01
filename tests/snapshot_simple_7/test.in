@@ -1,0 +1,5 @@
+snapshot
+checkout 1
+set a 1
+list entries
+bye

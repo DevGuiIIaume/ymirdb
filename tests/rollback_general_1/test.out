@@ -1,0 +1,111 @@
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> c
+
+> a, c
+
+> nil
+
+> a, b, c
+
+> b, d
+
+> d
+
+> a, b, d
+
+> nil
+
+> saved as snapshot 1
+
+> ok
+
+> saved as snapshot 2
+
+> ok
+
+> c
+
+> a, c
+
+> nil
+
+> a, b, c
+
+> no such key
+
+> b, d
+
+> d
+
+> a, b, d
+
+> nil
+
+> no such key
+
+> ok
+
+> c
+
+> a, c
+
+> nil
+
+> a, b, c
+
+> b, d, e
+
+> d, e
+
+> a, b, d, e
+
+> e
+
+> a, b, c, d
+
+> nil
+
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> no entries
+
+> ok
+
+> 1
+
+> c
+
+> a, c
+
+> nil
+
+> a, b, c
+
+> b, d
+
+> d
+
+> a, b, d
+
+> nil
+
+> bye

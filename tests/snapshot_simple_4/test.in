@@ -1,0 +1,18 @@
+set a 1
+set b 2
+set c 3
+set d 4
+set e 5
+set f 6
+list entries
+del a
+del f
+list entries
+del c
+del d
+list entries
+del e
+del b
+set g 7
+list entries
+bye

@@ -1,0 +1,5 @@
+set aaaa -10 -3 0 -9 15 32 79 18 3
+get aaaa
+sort aaaa
+list entries
+bye

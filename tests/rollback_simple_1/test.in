@@ -1,0 +1,19 @@
+set a 1
+snapshot
+set b 2
+snapshot
+set c 3
+snapshot
+checkout 1
+list entries
+checkout 2
+list entries
+checkout 3
+list entries
+list snapshots
+rollback 2
+list entries
+snapshot
+list entries
+list snapshots
+bye

@@ -1,0 +1,22 @@
+SET a0 1
+SET a1  a0
+SET a2  a0  a1
+SET a3  a0  a1  a2
+SET a4  a0  a1  a2  a3
+SET a5  a0  a1  a2  a3  a4
+SET a6  a0  a1  a2  a3  a4  a5
+SET a7  a0  a1  a2  a3  a4  a5  a6
+SET a8  a0  a1  a2  a3  a4  a5  a6  a7
+SET a9  a0  a1  a2  a3  a4  a5  a6  a7  a8
+SET a10  a0  a1  a2  a3  a4  a5  a6  a7  a8  a9
+SET a11  a0  a1  a2  a3  a4  a5  a6  a7  a8  a9  a10
+SET a12  a0  a1  a2  a3  a4  a5  a6  a7  a8  a9  a10  a11
+SET a13  a0  a1  a2  a3  a4  a5  a6  a7  a8  a9  a10  a11  a12
+SET a14  a0  a1  a2  a3  a4  a5  a6  a7  a8  a9  a10  a11  a12  a13
+SET a15  a0  a1  a2  a3  a4  a5  a6  a7  a8  a9  a10  a11  a12  a13  a14
+SET a16  a0  a1  a2  a3  a4  a5  a6  a7  a8  a9  a10  a11  a12  a13  a14  a15
+SET a17  a0  a1  a2  a3  a4  a5  a6  a7  a8  a9  a10  a11  a12  a13  a14  a15  a16
+SET a18  a0  a1  a2  a3  a4  a5  a6  a7  a8  a9  a10  a11  a12  a13  a14  a15  a16  a17
+SET a19  a0  a1  a2  a3  a4  a5  a6  a7  a8  a9  a10  a11  a12  a13  a14  a15  a16  a17  a18
+sum a19
+BYE

@@ -1,0 +1,20 @@
+set a 1
+set b a 2
+set c 3
+set d c 4
+set e 5
+push e a c
+list entries
+snapshot
+checkout 1
+forward a
+forward b
+forward c
+forward d
+forward e
+backward a
+backward b
+backward c
+backward d
+backward e
+bye

@@ -1,0 +1,16 @@
+set a 1
+set b 2
+set b a 2 a
+list entries
+pop b
+pop b
+forward a
+forward b
+backward a
+backward b
+set b a a
+forward a
+forward b
+backward a
+backward b
+bye

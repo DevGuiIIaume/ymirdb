@@ -1,0 +1,52 @@
+set a 1
+set b a 2
+set c 3
+snapshot
+set d c 4
+snapshot
+list entries
+del b
+del d
+del a
+del c
+list entries
+checkout 1
+list entries
+del c
+del b
+del a
+list entries
+checkout 2
+list entries
+del d
+del b
+del a
+del c
+list entries
+checkout 2
+list entries
+rollback 1
+list entries
+snapshot
+del c
+del b
+del a
+list entries
+checkout 3
+list entries
+checkout 1
+list entries
+forward a
+forward b
+backward a
+forward c
+backward b
+backward c
+checkout 3
+forward a
+forward b
+forward c
+backward a
+backward b
+backward c
+bye

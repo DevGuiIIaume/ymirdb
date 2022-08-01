@@ -1,0 +1,32 @@
+> ok
+
+> ok
+
+> ok
+
+> b [a 2 a]
+a [1]
+
+> a
+
+> 2
+
+> nil
+
+> a
+
+> b
+
+> nil
+
+> ok
+
+> nil
+
+> a
+
+> b
+
+> nil
+
+> bye

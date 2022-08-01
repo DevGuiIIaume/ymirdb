@@ -1,0 +1,9 @@
+set a 100
+set b a 200
+set c b 300
+set d 500 600 700
+sum a
+sum b
+sum c
+sum d
+bye

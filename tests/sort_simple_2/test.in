@@ -1,0 +1,13 @@
+set b 0 0 0 0 0 0 0 0
+sort b
+get b
+push b -1
+get b
+sort b
+get b
+push b 5
+append b -5
+get b
+sort b
+get b
+bye

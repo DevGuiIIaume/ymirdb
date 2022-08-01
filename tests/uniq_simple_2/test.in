@@ -1,0 +1,8 @@
+uniq unique
+set unique 11 11 23 11 11 0 1 1
+get unique
+uniq unique
+get unique
+del unique
+uniq unique
+bye

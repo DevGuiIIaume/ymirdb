@@ -1,0 +1,7 @@
+list snapshots
+drop 1
+snapshot
+drop 1
+list snapshots
+drop 1
+bye

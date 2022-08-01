@@ -1,0 +1,75 @@
+set a 1
+set b a 2
+snapshot
+set c 3
+set d c 4
+snapshot
+set e 5
+snapshot
+push e a c
+snapshot
+list entries
+del a
+del b
+del c
+del d
+del e
+del a
+del c
+list entries
+checkout 1
+list entries
+forward a
+forward b
+backward a
+backward b
+del a
+del b
+del a
+list entries
+checkout 2
+forward a
+forward b
+forward c
+forward d
+backward a
+backward b
+backward c
+backward d
+del b
+del d
+del a
+del c
+list entries
+checkout 3
+forward e
+backward e
+list entries
+checkout 4
+forward a
+forward b
+forward c
+forward d
+forward e
+backward a
+backward b
+backward c
+backward d
+backward e
+checkout 1
+list entries
+forward a
+forward b
+backward a
+backward b
+checkout 2
+list entries
+forward a
+forward b
+forward c
+forward d
+backward a
+backward b
+backward c
+backward d
+bye
