@@ -1,0 +1,153 @@
+SET SIMPLE
+1. Setting of several simple entries, check that they have the correct values
+2. Updating of entry, check that the values are correctly updated and that entry order is preserved
+
+SET GENERAL
+1. Setting of simple and general entries, check that they have the correct value
+2. Updating of an entry from a simple entry to a general entry
+3. Self-reference and reference to non-existing key is not prints not permitted and no such key
+4. Setting of 2 pairs of linked keys, checking that links have been correctly established
+5. Set of a simple value and then re-set to a general value with 2 general keys
+6. Set an empty entry to a general entry. Check that forward/backwards are correctly updated
+7. Test that you can update an entry with multiple general keys
+8. Set an entry with 2 duplicate general keys
+9. Update a simple entry with 2 duplicate general keys
+10. Update a general entry with duplicate general keys, check that references are correctly updated
+
+PUSH SIMPLE
+1. Pushing of a single and multiple values on a single entry
+
+PUSH GENERAL
+1. Pushing of a general entry, check that references have been correctly updated
+2. Pushing of two general entries to one entry, check that references were correctly updated
+3. Check that pushing of duplicate general keys to an entry correctly updates references
+
+APPEND SIMPLE
+1. Appending of single and multiple values to multiple entries
+
+APPEND GENERAL
+1. Append of a general entry, check that references have been correctly updated
+2. Appending of several general entries to a single entry, check that references are correctly updated
+
+POP SIMPLE
+1. Successive popping of a key's values, check that correct value has been deleted
+2. Pop when there is no corresponding entry
+
+POP GENERAL
+1. Check that popping of a general entry removes the correct value and that other entries are unaffected
+2. Check that popping ENTRY values from general entries updates the forward and backward references appropriately
+3. Check that TYPE is appropriately updated when popping values from an entry
+4. Popping of a duplicate ENTRY value from a general key
+5. Check that forward and backward references are correctly updated when popping a general key that is duplicated within the entry's values
+
+PLUCK SIMPLE
+1. Successive plucking of a simple entry at different indexes
+2. Pluck when there is no corresponding entry
+
+PLUCK GENERAL
+1. Plucking of several ENTRY keys from general entries. Check that references are correctly updated
+2. Plucking of all ENTRY keys from a general entry, then re-pushing them. Check that there are no null pointer exceptions and that references are correctly updated
+3. Check that pluck correctly updates the TYPE of the entry
+
+PICK SIMPLE
+1. Check that pick returns the correct value, even after push/append
+2. Pick when there is no corresponding entry
+
+PICK GENERAL
+1. Check that pick returns the correct key/value, even after push/append
+
+DEL SIMPLE
+1. Deletion of simple entries from the current state
+
+DEL GENERAL
+1. Check that deletion is not permitted when there are back references, check that references are correctly updated and entry removed from the state
+2. Check that deletion of nodes without back references is permitted, and that references are correctly updated
+3. Deletion of a key with values that are duplicate general entries
+
+SNAPSHOT SIMPLE
+1. Check that snapshots are correct loaded and that checkout loads the correct snapshot
+2. Check that setting in current state is disjoint from other snapshots
+3. Check that deletion in current state is disjoint from other snapshots
+4. Check that the head/middle/tail entries can all be properly deleted
+5. Check that drop snapshot containing only simple entries correctly updates snapshot linked list
+6. Check that snapshot of an empty entry list does not cause problems
+7. Check that setting of a value within an empty snapshot is correct and does not cause memory leaks
+8. Check that setting and deleting a key, snapshotting the state, and then loading it has the correct functionality
+9. Drop of a snapshot that does not exist returns "no such snapshot"
+10. Drop, rollback and checkout of a snapshot not in the bounds of [1, INTMAX]
+
+SNAPSHOT GENERAL
+1. Check that forward/backward references are correctly transferred to the snapshot
+2. Check that deleting from the current state does not affect the entries/references of other snapshots
+3. Check that deleting and snapshotting an empty entry behaves as normal and does not cause memory leaks
+
+ROLLBACK SIMPLE
+1. Check that for snapshots containing only simple entries, that the snapshots are correctly removed and the snapshot ids are unique
+
+ROLLBACK GENERAL
+1. Test that rollback correctly removes snapshots and updates to rollbacked state
+2. Test that rollback and then snapshot of the current state remains disjoint from the rollback snapshot
+
+PURGE SIMPLE
+1. Check that purging from main state also affects snapshots
+2. Check that purge affects the main state and all snapshots that contain the corresponding entry
+
+PURGE GENERAL
+1. Test removal of entry with backward references is not permitted if it is contained within any snapshot
+2. Test that deletion of an entry with backward references in a snapshot is not permitted
+
+MIN SIMPLE
+1. Min of a entry with a single value, Min of an entry with multiple values (negative and positive)
+
+MIN GENERAL
+1. Check that it correctly gets the min from only forward pointers
+
+MAX SIMPLE
+1. Max of a entry with a single value, max of an entry with multiple values (negative and positive)
+
+MAX GENERAL
+1. Check that it correctly gets the max from only forward pointers
+
+SUM SIMPLE
+1. Sum of a single entry. Also check that sum of empty entry is 0
+
+SUM GENERAL
+1. Sum of multiple entries, all connected
+2. Sum of simple and general entries
+3. Test that push/append updates the sum
+4. Sum with duplicate general forward entries
+5. Sum with many forward references
+6. Tower scenario with a lot of forward references, check that sum is correctly computed
+
+LEN SIMPLE
+1. Length of a single entry with one value
+2. Length of a multiple entries with multiple values after push/append/pop/pluck
+
+LEN GENERAL
+1. Length of multiple general/simple entries
+2. Length of entries that have been pushed/appended
+
+REV SIMPLE
+1. Simple reverse of multiple keys with multiple values. Also rev a single key with a single value.
+2. Rev when no corresponding entry exists
+
+UNIQ SIMPLE
+1. Check that non-adjacent values are not removed
+2. Check that only adjacent values are removed
+
+SORT SIMPLE
+1. Range of negative and positive values
+2. Test that pushed/appended values are properly sorted
+3. Sort when no corresponding entry exists
+
+MISC
+1. non-alphanumeric, key exceeds 16 chars, key starts with number
+2. Check that commands correctly print "no such key" when operated on a non-exiting key
+3. Check that rev/sort/uniq on a general key prints "not permitted" (implementation left ambiguous in spec but defined here)
+4. Edge case with duplicate ENTRY values, check that sum/len/min/max correctly work
+5. Edge case with duplicate ENTRY values, but with more entries
+6. Invalid command
+
+MASSIVE
+1. Massive testcase with randomly generated commands. Check that there are no memory leaks
+2. Massive testcase with randomly generated commands, with an emphasis on del, purge, pop, pluck, and references. Check that there are no memory leaks
